@@ -1,0 +1,15 @@
+name: grapple
+channels:
+  - pytorch
+  - pyg
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - tqdm
+  - pytorch
+  - pyg
+  - pip:
+      - ogb>=1.3.6
