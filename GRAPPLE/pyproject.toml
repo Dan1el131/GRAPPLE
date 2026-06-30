@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grapple-graph"
+version = "0.1.0"
+description = "Reference implementation of GRAPPLE for graph representation learning."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "GRAPPLE authors" }]
+
+[tool.setuptools.packages.find]
+include = ["grapple*"]
